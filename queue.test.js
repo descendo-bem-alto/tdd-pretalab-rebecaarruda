@@ -5,7 +5,6 @@ describe('Queue', () => {
     const queue = new Queue()
 
     const queue = new Queue()
-
     expect(queue).toEqual({ elements: []})
 
   })
