@@ -2,9 +2,7 @@ const Queue = require('./queue')
 
 describe('Queue', () => {
   it('Deve criar uma fila', () => {
-    const queue = new Queue()
-
-    const queue = new Queue()
+        const queue = new Queue()
     expect(queue).toEqual({ elements: []})
 
   })
